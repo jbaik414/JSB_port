@@ -1,45 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John Baik's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-</head>
-<body>
-  <header>
-    <h1>John Baik</h1>
-    <nav>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><i class="fas fa-chart-line"></i> Stock Price Dashboard</li>
-      <li><i class="fas fa-database"></i> Titanic EDA with Python & SQL</li>
-      <li><i class="fas fa-golf-ball"></i> Golf Score Predictor</li>
-    </ul>
-  </section>
+header {
+  background: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m learning data analysis, SQL, and web dev—is this you? Let’s connect!</p>
-  </section>
+nav ul {
+  list-style: none;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:business.johnbaik@gmail.com">business.johnbaik@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/jbaik414" target="_blank">jbaik414</a></p>
-  </section>
+nav a {
+  color: white;
+  text-decoration: none;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
