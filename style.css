@@ -8,7 +8,7 @@
 body {
   background-color: #000; /* Black background */
   color: #fff; /* White text */
-  font-family: 'Courier New', Courier, monospace; /* Blocky, code-like font */
+  font-family: 'Courier New', Courier, monospace; /* Blocky, code-style font */
   line-height: 1.6;
   padding: 2rem;
 }
@@ -22,6 +22,7 @@ header {
   border-bottom: 2px solid #fff;
 }
 
+/* Logo */
 .logo h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -31,40 +32,3 @@ header {
 .nav__list {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
-}
-
-.nav__item a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-.nav__item a:hover {
-  text-decoration: underline;
-}
-
-/* Intro section */
-.intro {
-  margin-top: 3rem;
-}
-
-.section_title--intro {
-  font-size: 2.5rem;
-}
-
-/* Projects section */
-.my-projects {
-  margin-top: 4rem;
-}
-
-.section_title--services {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-/* Contact section */
-.contact_info {
-  margin-top: 4rem;
-  font-size: 1.2rem;
-}
