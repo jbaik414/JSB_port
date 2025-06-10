@@ -1,53 +1,63 @@
 body {
-  background-color: #000; /* Black background */
-  color: #000; /* White text */
-  font-family: 'Courier New', Courier, monospace; /* Blocky font */
-  padding: 2rem;
-  margin: 0;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #000;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-}
-
-.logo h1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-/* Navigation */
-.nav__list {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
 }
 
-.nav__item .nav__link {
-  text-decoration: none;
-  color: #fff;
+header {
+  background: #000;
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  border-bottom: 2px solid #fff;
+}
+
+header h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
   font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: text-decoration 0.2s;
 }
 
 .nav__link:hover {
-  color: #1e90ff;
+  text-decoration: underline;
 }
 
-/* Section Styling */
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background: #000;
+}
+
 h2 {
-  border-bottom: 1px solid #fff;
-  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
   padding-bottom: 0.5rem;
-}
-
-.intro, .my-projects, .contact_info, .about-section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
 }
 
 ul {
@@ -56,6 +66,22 @@ ul {
 }
 
 li {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+strong {
+  color: #fff;
 }
