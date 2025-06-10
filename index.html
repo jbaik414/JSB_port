@@ -4,48 +4,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>John Baik's Portfolio</title>
-
-  <!-- Normalize & Font Awesome from CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
-
 <body>
   <header>
-    <div class="logo">
-      <h1>John Baik</h1>
-    </div>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+    <h1>John Baik</h1>
+    <nav>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="intro" id="home">
-    <h1 class="section_title--intro">Hi, I am <strong>John Baik</strong>!</h1>
-    <p>Welcome to my developer portfolio.</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p></p>
   </section>
 
-  <section class="my-projects" id="projects">
-    <h2 class="section_title--services">Projects</h2>
+  <section id="projects">
+    <h2>Projects</h2>
     <ul>
-      <li>📊 Stock Market Dashboard using Python & Tableau</li>
-      <li>📈 Golf Performance Prediction with Scikit-Learn</li>
-      <li>💻 SQL Data Cleaning & Analysis</li>
+      <li><i class="fas fa-chart-line"></i> Stock Price Prediction Model</li>
+      <li><i class="fas fa-database"></i>College Footbal Predictor</li>
+      <li><i class="fas fa-golf-ball"></i>Youtube Trend Analysis</li>
     </ul>
   </section>
 
-  <section class="contact_info" id="contact">
+  
+
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: johnbaik@example.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>Email: <a href="mailto:business.johnbaik@gmail.com">johnbaikbmail@gmail.com</a></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/john-baik-umd" target="_blank">john-baik-umd</a></p>
+    <p>GitHub: <a href="https://github.com/jbaik414" target="_blank">jbaik414</a></p>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
