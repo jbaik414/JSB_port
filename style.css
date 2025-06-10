@@ -1,68 +1,54 @@
-body {
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
-  font-family: 'Courier New', Courier, monospace; /* Blocky font */
-  padding: 2rem;
-  margin: 0;
-}
-
-header {
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
-}
-
-header h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 2.5rem;
-  font-weight: 900; /* Extra bold */
-  color: #fff;
-  margin-bottom: 1.5rem;
-  letter-spacing: 2px;
-}
-
-.nav__list {
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__link {
-  color: #fff;
-  text-decoration: underline;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: color 0.2s;
-}
-
-.nav__link:hover {
-  color: #ccc;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Baik's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+  <header>
+  <h1>John Baik</h1>
+  <nav>
+    <ul class="nav__list">
+      <li><a class="nav__link" href="#projects">Projects</a></li>
+      <li><a class="nav__link" href="#about">About Me</a></li>
+      <li><a class="nav__link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  </header>
 
 
-/* Section Styling */
-h2 {
-  border-bottom: 1px solid #fff;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-}
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="bio">
+        <p>Attending the <strong>University of Maryland-College Park</strong></p>
+        <p>Studying <strong>Computer Science-Data Science(B.S.)</strong> and  <strong>Statistics (B.S)</strong></p>
+        <p>Currently located in <strong>College Park, Maryland</strong></p>
+        <p>Previously: Undergraduate TA for <strong>CMSC320 and CMSC424</strong>, Research Intern at <strong>National Cancer Institute</strong>
+    </div>
+  </section>
 
-.intro, .my-projects, .contact_info, .about-section {
-  margin-bottom: 2rem;
-}
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><i class="fas fa-chart-line"></i> Stock Price Precition Model</li>
+      <li><i class="fas fa-database"></i> Youtube Trend Data Analysis</li>
+      <li><i class="fas fa-regular fa-football"></i> College Football Score Predictor</li>
+    </ul>
+  </section>
 
-ul {
-  list-style: none;
-  padding: 0;
-}
+  
 
-li {
-  margin: 0.5rem 0;
-  font-size: 1.2rem;
-}
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:business.johnbaik@gmail.com">business.johnbaik@gmail.com</a></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/john-baik-umd">john-baik-umd</a></p>
+    <p>GitHub: <a href="https://github.com/jbaik414" target="_blank">jbaik414</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
