@@ -1,14 +1,11 @@
-/* Global styles */
 body {
-  background-color: #000; /* Pure black background */
+  background-color: #000; /* Black background */
   color: #fff; /* White text */
-  font-family: 'Courier New', Courier, monospace; /* Blocky monospace font */
-  line-height: 1.6;
-  margin: 0;
+  font-family: 'Courier New', Courier, monospace; /* Blocky font */
   padding: 2rem;
+  margin: 0;
 }
 
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -21,15 +18,15 @@ header {
 .logo h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
 }
 
+/* Navigation */
 .nav__list {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .nav__item .nav__link {
@@ -39,51 +36,26 @@ header {
 }
 
 .nav__link:hover {
-  color: #1e90ff; /* Optional hover color */
+  color: #1e90ff;
 }
 
-/* Section Titles */
+/* Section Styling */
 h2 {
-  font-size: 1.8rem;
   border-bottom: 1px solid #fff;
+  margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
 }
 
-/* Intro */
-.section_title--intro {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.intro p {
-  font-size: 1.2rem;
-}
-
-/* Projects */
-.my-projects ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.my-projects li {
-  margin: 0.5rem 0;
-  font-size: 1.2rem;
-}
-
-/* About Section */
-.about-section {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 2px solid #fff;
-}
-
-.project-list {
-  list-style: none;
-  padding: 0;
+.intro, .my-projects, .contact_info, .about-section {
   margin-bottom: 2rem;
 }
 
-.project-list li {
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
   margin: 0.5rem 0;
-  font-size: 1.
+  font-size: 1.2rem;
+}
