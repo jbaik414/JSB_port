@@ -1,10 +1,12 @@
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  font-family: 'Nohemi', sans-serif;
+
+  padding: 2rem;
   margin: 0;
-  padding: 0;
 }
+
 
 header {
   text-align: center;
@@ -14,10 +16,11 @@ header {
 }
 
 header h1 {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 900; /* Extra bold */
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   letter-spacing: 2px;
 }
 
@@ -27,12 +30,11 @@ header h1 {
   gap: 2.5rem;
   list-style: none;
   padding: 0;
-  margin: 0 0 2rem 0;
+  margin: 0;
 }
 
-.nav__link,
-.nav__link:visited {
-  color: #fff !important;
+.nav__link {
+  color: #fff;
   text-decoration: underline;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
@@ -42,29 +44,19 @@ header h1 {
 }
 
 .nav__link:hover {
-  color: #ccc !important;
+  color: #ccc;
 }
 
-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
 
+/* Section Styling */
 h2 {
   border-bottom: 1px solid #fff;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
-.bio p,
-ul,
-li,
-p {
-  color: #fff;
+.intro, .my-projects, .contact_info, .about-section {
+  margin-bottom: 2rem;
 }
 
 ul {
@@ -75,17 +67,4 @@ ul {
 li {
   margin: 0.5rem 0;
   font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-a,
-a:visited {
-  color: #fff;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #ccc;
 }
