@@ -1,6 +1,6 @@
 body {
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
+  background-color: #fff; /* Black background */
+  color: #000; /* White text */
   font-family: 'Supreme', sans-serif;
 
   padding: 2rem;
@@ -19,7 +19,7 @@ header h1 {
   font-family: 'Supreme', sans-serif;
   font-size: 2.5rem;
   font-weight: 900; /* Extra bold */
-  color: #fff;
+  color: #000;
   margin-bottom: 1.5rem;
   letter-spacing: 2px;
 }
@@ -34,7 +34,7 @@ header h1 {
 }
 
 .nav__link {
-  color: #fff;
+  color: #000;
   text-decoration: underline;
   font-family: 'Supreme', sans-serif;
   font-size: 1.2rem;
